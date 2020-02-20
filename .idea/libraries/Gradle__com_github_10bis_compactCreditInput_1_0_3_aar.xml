@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.10bis:compactCreditInput:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29435d379943c0afbbbfa3a738bca0aa/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29435d379943c0afbbbfa3a738bca0aa/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.10bis/compactCreditInput/1.0.3/b3374f43422d8d94d48b9118e74df7037d218a82/compactCreditInput-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

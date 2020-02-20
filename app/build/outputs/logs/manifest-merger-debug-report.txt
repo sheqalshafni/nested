@@ -1,0 +1,538 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:2:1-116:12
+INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:2:1-116:12
+INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:2:1-116:12
+INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:2:1-116:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ce15b624b7562ec45c45923dc72e207d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.10bis:compactCreditInput:1.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\29435d379943c0afbbbfa3a738bca0aa\AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:2.7.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\62a3b0a8eb2de0eba422a37850312f6e\AndroidManifest.xml:2:1-13:12
+MERGED from [br.com.simplepass:loading-button-android:1.14.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\4f54ba64421a1e37a8de13a6fc2cd10b\AndroidManifest.xml:2:1-11:12
+MERGED from [me.omidh:liquidradiobutton:1.0.01] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\8b853d5423e75b17eb5307ee3ba4f38a\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.davidpizarro:pickerui:1.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\e91505eb38924773e00ca8dcd5521735\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.Pierry:Progress:1.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\87152a0e678501b9fc5455846f5e96d5\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a25cab899d938c70b28e0a8f780a8308\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ea39f46af7694e46fc9d4608866293ea\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\dec93194ce39c78cd06041f36f6e5b21\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\269f4022ad1180cb3f4448197e567cb4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\3994a731fb96a276fe6d50941285bd3b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\36b538b95c950aa2a5f6d3864dcb4eed\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\92d2300f687906b352146feeaec8c255\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a7f4c6eb638c1f5a7c80d9013fcc972f\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a2e18764e00c97f82db4c9c4717c4202\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b7508e03a7a880744c4822f4563c4ad9\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\98c81d5baec9ec25df83ef7909a0f59a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\3bc7b8635c0d0096f0c0a13b8aea337f\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\09a53db87de7efecc4771e4e97623673\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\88eadcde05e38a6034f9cdefe2fba797\AndroidManifest.xml:17:1-22:12
+MERGED from [com.libRG:customtextview:2.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\5609b1eb04d9dd92b6a87ba519c4cba4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\4ef895f7db8de6f740ce9fbc7ae22634\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\95bcf500197ae8aa1b82225d286750a9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\654848c0bc258d81911e0410da90e629\AndroidManifest.xml:2:1-7:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\d0bd241a41e2e4221a43fcf8b9c0d6ca\AndroidManifest.xml:2:1-9:12
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\0a86ece65513942492cabdb490355970\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\497820c9f6b786d7bf68490b5afb5238\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\f2f9ad30aea4533ed5d93ce9220ec68f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\1760960c967f83ee713a8802b6bac1bb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\6365b4f2a25ddebd5eb916fe89dba8d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b712b3b0cc52ffa7f36c5948e27356a2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\7fb23dc277854e879c8cb8d844d55403\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\220e8e8b4f9173857dc5b6aa046094b0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\8b61601a0dab4d5458cbfc37fb225cfc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\5f509208c1d8329606da571009709693\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\00364f611058c1d0fa1a0c956aefc329\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\754315b18bf572dc18978e951feda527\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\753cbb9b4442d6ef20fd2280b17803d5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\e63660c79376fb0fd29277e577ed909c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\96863408c811910b13a3b39871361ae5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\c22afd33a95df8627dad755a18b92daf\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\4a3779bc0f7872161b45633afeb4ac72\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\034d6fd57d6d997dcdd7a3cfeb385a77\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b831f871758e67481484396190bc221c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\eb624dd2588c99e28fabd9d2b4ba7600\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\6b5d73af04c6a9b06efae7175d982c91\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\8e59b1ead8c90036b04976427d2b9e7e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\c1260c2bc1d97022f282d2c669d53c39\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\cd5d967312acd16774e0678e1031a666\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\018bded2a00de432bd2a1cceb21660f8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\506488d6ca079dd7a57c3006b3f3e3e4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\4979b17dd4a67ec02bf5131d237b7738\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\93ef45ec8a83c911109d3343f5173893\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:2:1-116:12
+INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:2:1-116:12
+INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:2:1-116:12
+	package
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:4:5-33
+		INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:2:1-116:12
+		INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:2:1-116:12
+		INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\36b538b95c950aa2a5f6d3864dcb4eed\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\36b538b95c950aa2a5f6d3864dcb4eed\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:9:22-62
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:10:5-69
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:10:22-66
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\36b538b95c950aa2a5f6d3864dcb4eed\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\36b538b95c950aa2a5f6d3864dcb4eed\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:11:22-76
+application
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:13:5-114:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ce15b624b7562ec45c45923dc72e207d\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ce15b624b7562ec45c45923dc72e207d\AndroidManifest.xml:22:5-20
+MERGED from [com.airbnb.android:lottie:2.7.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\62a3b0a8eb2de0eba422a37850312f6e\AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:2.7.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\62a3b0a8eb2de0eba422a37850312f6e\AndroidManifest.xml:11:5-20
+MERGED from [me.omidh:liquidradiobutton:1.0.01] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\8b853d5423e75b17eb5307ee3ba4f38a\AndroidManifest.xml:11:5-15:19
+MERGED from [me.omidh:liquidradiobutton:1.0.01] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\8b853d5423e75b17eb5307ee3ba4f38a\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.Pierry:Progress:1.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\87152a0e678501b9fc5455846f5e96d5\AndroidManifest.xml:11:5-14:45
+MERGED from [com.github.Pierry:Progress:1.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\87152a0e678501b9fc5455846f5e96d5\AndroidManifest.xml:11:5-14:45
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ea39f46af7694e46fc9d4608866293ea\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ea39f46af7694e46fc9d4608866293ea\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\dec93194ce39c78cd06041f36f6e5b21\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\dec93194ce39c78cd06041f36f6e5b21\AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:13:5-19:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:13:5-19:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a7f4c6eb638c1f5a7c80d9013fcc972f\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a7f4c6eb638c1f5a7c80d9013fcc972f\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a2e18764e00c97f82db4c9c4717c4202\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a2e18764e00c97f82db4c9c4717c4202\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b7508e03a7a880744c4822f4563c4ad9\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b7508e03a7a880744c4822f4563c4ad9\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\98c81d5baec9ec25df83ef7909a0f59a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\98c81d5baec9ec25df83ef7909a0f59a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\09a53db87de7efecc4771e4e97623673\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\09a53db87de7efecc4771e4e97623673\AndroidManifest.xml:22:5-26:19
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\0a86ece65513942492cabdb490355970\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\0a86ece65513942492cabdb490355970\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\96863408c811910b13a3b39871361ae5\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\96863408c811910b13a3b39871361ae5\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\c22afd33a95df8627dad755a18b92daf\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\c22afd33a95df8627dad755a18b92daf\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\034d6fd57d6d997dcdd7a3cfeb385a77\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\034d6fd57d6d997dcdd7a3cfeb385a77\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\96863408c811910b13a3b39871361ae5\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:16:9-41
+		REJECTED from [me.omidh:liquidradiobutton:1.0.01] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\8b853d5423e75b17eb5307ee3ba4f38a\AndroidManifest.xml:13:9-41
+		REJECTED from [com.github.Pierry:Progress:1.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\87152a0e678501b9fc5455846f5e96d5\AndroidManifest.xml:12:9-44
+	android:roundIcon
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:17:9-54
+	android:icon
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:15:9-47
+	android:allowBackup
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:19:9-40
+		REJECTED from [com.github.Pierry:Progress:1.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\87152a0e678501b9fc5455846f5e96d5\AndroidManifest.xml:14:9-42
+	tools:replace
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:20:9-52
+activity#com.example.nested.ViewSelectedUnitActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:21:9-23:58
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:22:13-53
+activity#com.example.nested.searchactivities.PostUnitActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:24:9-26:58
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:25:13-62
+activity#com.example.nested.searchactivities.PostRoommateActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:27:9-29:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:28:13-66
+activity#com.example.nested.ViewSelectedRoommateActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:30:9-32:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:32:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:31:13-57
+activity#com.example.nested.payment.MakePaymentActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:33:9-35:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:35:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:34:13-56
+activity#com.example.nested.profileactivities.accountactivities.ViewCreditCardActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:36:9-38:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:37:13-87
+activity#com.example.nested.ViewSelectedRoom
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:39:9-41:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:40:13-45
+activity#com.example.nested.searchactivities.PostRoomActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:42:9-44:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:44:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:43:13-62
+activity#com.example.nested.HomeActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:45:9-47:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:46:13-41
+activity#com.example.nested.profileactivities.ProfileIDActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:48:9-50:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:50:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:49:13-64
+activity#com.example.nested.profileactivities.profiledetailsactivities.EditProfileActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:51:9-53:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:52:13-91
+activity#com.example.nested.profileactivities.profiledetailsactivities.CredentialsActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:54:9-56:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:56:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:55:13-91
+activity#com.example.nested.searchactivities.FindUnitActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:57:9-59:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:59:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:58:13-62
+activity#com.example.nested.searchactivities.FindRoommateActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:60:9-62:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:61:13-66
+activity#com.example.nested.searchactivities.FindRoomActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:63:9-65:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:64:13-62
+activity#com.example.nested.profileactivities.supportactivities.RulesActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:66:9-68:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:68:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:67:13-78
+activity#com.example.nested.profileactivities.supportactivities.DeleteAccountActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:69:9-71:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:71:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:70:13-86
+activity#com.example.nested.profileactivities.supportactivities.AboutActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:72:9-74:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:74:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:73:13-78
+activity#com.example.nested.profileactivities.settingsactivities.LanguageActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:75:9-77:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:77:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:76:13-82
+activity#com.example.nested.profileactivities.settingsactivities.PrivacyActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:78:9-80:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:80:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:79:13-81
+activity#com.example.nested.profileactivities.accountactivities.MyListings
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:81:9-83:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:83:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:82:13-75
+activity#com.example.nested.profileactivities.accountactivities.CardDetailsActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:84:9-86:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:86:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:85:13-84
+activity#com.example.nested.profileactivities.accountactivities.CardActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:87:9-89:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:89:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:88:13-77
+activity#com.example.nested.profileactivities.ProfileActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:90:9-92:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:92:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:91:13-62
+activity#com.example.nested.mainmenuactivities.PaymentHistoryActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:93:9-95:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:95:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:94:13-70
+activity#com.example.nested.mainmenuactivities.RentalActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:96:9-98:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:98:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:97:13-62
+activity#com.example.nested.mainmenuactivities.ListingQuickLink
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:99:9-101:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:101:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:100:13-64
+activity#com.example.nested.LogOnActivity
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:102:9-104:59
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:104:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:103:13-42
+activity#com.example.nested.Splashscreen
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:105:9-113:20
+	android:theme
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:107:13-56
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:106:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:108:13-112:29
+action#android.intent.action.MAIN
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:109:17-69
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:109:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:111:17-77
+	android:name
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml:111:27-74
+uses-sdk
+INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ce15b624b7562ec45c45923dc72e207d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ce15b624b7562ec45c45923dc72e207d\AndroidManifest.xml:20:5-44
+MERGED from [com.github.10bis:compactCreditInput:1.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\29435d379943c0afbbbfa3a738bca0aa\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.10bis:compactCreditInput:1.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\29435d379943c0afbbbfa3a738bca0aa\AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.7.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\62a3b0a8eb2de0eba422a37850312f6e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.7.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\62a3b0a8eb2de0eba422a37850312f6e\AndroidManifest.xml:7:5-9:41
+MERGED from [br.com.simplepass:loading-button-android:1.14.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\4f54ba64421a1e37a8de13a6fc2cd10b\AndroidManifest.xml:7:5-9:41
+MERGED from [br.com.simplepass:loading-button-android:1.14.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\4f54ba64421a1e37a8de13a6fc2cd10b\AndroidManifest.xml:7:5-9:41
+MERGED from [me.omidh:liquidradiobutton:1.0.01] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\8b853d5423e75b17eb5307ee3ba4f38a\AndroidManifest.xml:7:5-9:41
+MERGED from [me.omidh:liquidradiobutton:1.0.01] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\8b853d5423e75b17eb5307ee3ba4f38a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.davidpizarro:pickerui:1.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\e91505eb38924773e00ca8dcd5521735\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.davidpizarro:pickerui:1.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\e91505eb38924773e00ca8dcd5521735\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.Pierry:Progress:1.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\87152a0e678501b9fc5455846f5e96d5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Pierry:Progress:1.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\87152a0e678501b9fc5455846f5e96d5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a25cab899d938c70b28e0a8f780a8308\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a25cab899d938c70b28e0a8f780a8308\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ea39f46af7694e46fc9d4608866293ea\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ea39f46af7694e46fc9d4608866293ea\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\dec93194ce39c78cd06041f36f6e5b21\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\dec93194ce39c78cd06041f36f6e5b21\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\269f4022ad1180cb3f4448197e567cb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\269f4022ad1180cb3f4448197e567cb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\3994a731fb96a276fe6d50941285bd3b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\3994a731fb96a276fe6d50941285bd3b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\36b538b95c950aa2a5f6d3864dcb4eed\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\36b538b95c950aa2a5f6d3864dcb4eed\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\92d2300f687906b352146feeaec8c255\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\92d2300f687906b352146feeaec8c255\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a7f4c6eb638c1f5a7c80d9013fcc972f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a7f4c6eb638c1f5a7c80d9013fcc972f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a2e18764e00c97f82db4c9c4717c4202\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a2e18764e00c97f82db4c9c4717c4202\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b7508e03a7a880744c4822f4563c4ad9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b7508e03a7a880744c4822f4563c4ad9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\98c81d5baec9ec25df83ef7909a0f59a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\98c81d5baec9ec25df83ef7909a0f59a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\3bc7b8635c0d0096f0c0a13b8aea337f\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\3bc7b8635c0d0096f0c0a13b8aea337f\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\09a53db87de7efecc4771e4e97623673\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\09a53db87de7efecc4771e4e97623673\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\88eadcde05e38a6034f9cdefe2fba797\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\88eadcde05e38a6034f9cdefe2fba797\AndroidManifest.xml:20:5-44
+MERGED from [com.libRG:customtextview:2.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\5609b1eb04d9dd92b6a87ba519c4cba4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.libRG:customtextview:2.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\5609b1eb04d9dd92b6a87ba519c4cba4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\4ef895f7db8de6f740ce9fbc7ae22634\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\4ef895f7db8de6f740ce9fbc7ae22634\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\95bcf500197ae8aa1b82225d286750a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\95bcf500197ae8aa1b82225d286750a9\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\654848c0bc258d81911e0410da90e629\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\654848c0bc258d81911e0410da90e629\AndroidManifest.xml:5:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\d0bd241a41e2e4221a43fcf8b9c0d6ca\AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\d0bd241a41e2e4221a43fcf8b9c0d6ca\AndroidManifest.xml:7:5-43
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\0a86ece65513942492cabdb490355970\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\0a86ece65513942492cabdb490355970\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\497820c9f6b786d7bf68490b5afb5238\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\497820c9f6b786d7bf68490b5afb5238\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\f2f9ad30aea4533ed5d93ce9220ec68f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\f2f9ad30aea4533ed5d93ce9220ec68f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\1760960c967f83ee713a8802b6bac1bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\1760960c967f83ee713a8802b6bac1bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\6365b4f2a25ddebd5eb916fe89dba8d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\6365b4f2a25ddebd5eb916fe89dba8d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b712b3b0cc52ffa7f36c5948e27356a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b712b3b0cc52ffa7f36c5948e27356a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\7fb23dc277854e879c8cb8d844d55403\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\7fb23dc277854e879c8cb8d844d55403\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\220e8e8b4f9173857dc5b6aa046094b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\220e8e8b4f9173857dc5b6aa046094b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\8b61601a0dab4d5458cbfc37fb225cfc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\8b61601a0dab4d5458cbfc37fb225cfc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\5f509208c1d8329606da571009709693\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\5f509208c1d8329606da571009709693\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\00364f611058c1d0fa1a0c956aefc329\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\00364f611058c1d0fa1a0c956aefc329\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\754315b18bf572dc18978e951feda527\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\754315b18bf572dc18978e951feda527\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\753cbb9b4442d6ef20fd2280b17803d5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\753cbb9b4442d6ef20fd2280b17803d5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\e63660c79376fb0fd29277e577ed909c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\e63660c79376fb0fd29277e577ed909c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\96863408c811910b13a3b39871361ae5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\96863408c811910b13a3b39871361ae5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\c22afd33a95df8627dad755a18b92daf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\c22afd33a95df8627dad755a18b92daf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\4a3779bc0f7872161b45633afeb4ac72\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\4a3779bc0f7872161b45633afeb4ac72\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\034d6fd57d6d997dcdd7a3cfeb385a77\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\034d6fd57d6d997dcdd7a3cfeb385a77\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b831f871758e67481484396190bc221c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b831f871758e67481484396190bc221c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\eb624dd2588c99e28fabd9d2b4ba7600\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\eb624dd2588c99e28fabd9d2b4ba7600\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\6b5d73af04c6a9b06efae7175d982c91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\6b5d73af04c6a9b06efae7175d982c91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\8e59b1ead8c90036b04976427d2b9e7e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\8e59b1ead8c90036b04976427d2b9e7e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\c1260c2bc1d97022f282d2c669d53c39\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\c1260c2bc1d97022f282d2c669d53c39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\cd5d967312acd16774e0678e1031a666\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\cd5d967312acd16774e0678e1031a666\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\018bded2a00de432bd2a1cceb21660f8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\018bded2a00de432bd2a1cceb21660f8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\506488d6ca079dd7a57c3006b3f3e3e4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\506488d6ca079dd7a57c3006b3f3e3e4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\4979b17dd4a67ec02bf5131d237b7738\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\4979b17dd4a67ec02bf5131d237b7738\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\93ef45ec8a83c911109d3343f5173893\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\93ef45ec8a83c911109d3343f5173893\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Projects\Final Year Project-20200206T091928Z-001\Final Year Project\Nested\app\src\main\AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:14:9-18:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:14:9-18:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\ad2ec3916b8c341a06dfbdd55d28cd67\AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.2] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\2440633a21af87808c1d6c69bd74d096\AndroidManifest.xml:16:17-111
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a2e18764e00c97f82db4c9c4717c4202\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a2e18764e00c97f82db4c9c4717c4202\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a2e18764e00c97f82db4c9c4717c4202\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\a2e18764e00c97f82db4c9c4717c4202\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b7508e03a7a880744c4822f4563c4ad9\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b7508e03a7a880744c4822f4563c4ad9\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b7508e03a7a880744c4822f4563c4ad9\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b7508e03a7a880744c4822f4563c4ad9\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\b7508e03a7a880744c4822f4563c4ad9\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\09a53db87de7efecc4771e4e97623673\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\09a53db87de7efecc4771e4e97623673\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\sheqa\.gradle\caches\transforms-2\files-2.1\09a53db87de7efecc4771e4e97623673\AndroidManifest.xml:24:13-58

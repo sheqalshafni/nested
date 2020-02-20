@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileactivities.accountactivities.CardDetailsActivity"
+    android:background="@color/mediumGray">
+
+
+        <View
+            android:id="@+id/placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightGray"
+            android:layout_below="@id/placeholder"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="55dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="59dp"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <com.tenbis.support.views.CompactCreditInput
+            android:id="@+id/txtCardDetails"
+            android:layout_width="375dp"
+            android:layout_height="75dp"
+            app:card_background="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/placeholder"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/btnAddCard"
+            android:layout_width="375dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/placeholder"
+            android:text="Add Card"
+            android:textColor="@color/white"
+            android:background="#1a6aeb"
+            android:layout_marginTop="150dp"/>
+
+</RelativeLayout>

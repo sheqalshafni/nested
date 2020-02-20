@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".searchactivities.PostUnitActivity"
+    android:background="@color/mediumGray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightGray"
+            android:layout_below="@id/placeholder"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Listing"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="55dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="59dp"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/roomPref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room Details"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/placeholder"
+            android:layout_marginStart="40dp"/>
+
+
+        <ImageView
+            android:id="@+id/uploadImg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/roomPref"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/ic_add"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/txtRoomTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Building name"
+            android:textSize="17sp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/uploadImg"
+            android:layout_marginStart="40dp"/>
+
+        <EditText
+            android:id="@+id/etRoomTitle"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtRoomTitle"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="15dp"
+            android:inputType="text"
+            android:backgroundTint="@color/Gray"/>
+
+        <TextView
+            android:id="@+id/userType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posting as"
+            android:textSize="17sp"
+            android:layout_below="@id/etRoomTitle"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="40dp"/>
+
+        <RadioGroup
+            android:id="@+id/radUserType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userType"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="60dp"
+            android:orientation="horizontal">
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radLandlord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userType"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="Landlord"
+                android:textColor="@color/Gray"
+                android:padding="10dp"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/genderType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preferred Gender"
+            android:textSize="17sp"
+            android:layout_below="@id/radUserType"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"/>
+
+        <RadioGroup
+            android:id="@+id/radGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genderType"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="60dp"
+            android:orientation="horizontal">
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/genderType"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="Male"
+                android:textColor="@color/Gray"
+                android:padding="10dp"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/genderType"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="Female"
+                android:textColor="@color/Gray"
+                android:padding="10dp"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radMix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/genderType"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="Mix"
+                android:textColor="@color/Gray"
+                android:padding="10dp"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/professionType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preferred Profession"
+            android:textSize="17sp"
+            android:layout_below="@id/radGender"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"/>
+
+        <RadioGroup
+            android:id="@+id/radProfession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/professionType"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="60dp"
+            android:orientation="horizontal">
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radStudent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/professionType"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="Student"
+                android:textColor="@color/Gray"
+                android:padding="10dp"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radProfessional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/professionType"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="Professional"
+                android:textColor="@color/Gray"
+                android:padding="10dp"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/roomType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room Type"
+            android:textSize="17sp"
+            android:layout_below="@id/radProfession"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"/>
+
+        <RadioGroup
+            android:id="@+id/radRoomType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/roomType"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="60dp"
+            android:orientation="horizontal">
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radSingle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="Single"
+                android:padding="10dp"
+                android:textColor="@color/Gray"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radMiddle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="Middle"
+                android:textColor="@color/Gray"
+                android:padding="10dp"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radMaster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="Master"
+                android:textColor="@color/Gray"
+                android:padding="10dp"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/preferredType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radRoomType"
+            android:text="Room State"
+            android:textSize="17sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"/>
+
+        <RadioGroup
+            android:id="@+id/radRoomState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/preferredType"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="60dp"
+            android:orientation="horizontal">
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radFurnished"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="Furnished"
+                android:padding="10dp"
+                android:textColor="@color/Gray"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radUnfurnished"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="Unfurnished"
+                android:padding="10dp"
+                android:textColor="@color/Gray"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/propertyType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etRoomPrice"
+            android:text="Property Type"
+            android:textSize="17sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"/>
+
+        <RadioGroup
+            android:id="@+id/radPropertyType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/propertyType"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="60dp"
+            android:orientation="horizontal">
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radLanded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="Landed"
+                android:padding="10dp"
+                android:textColor="@color/Gray"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+            <me.omidh.liquidradiobutton.LiquidRadioButton
+                android:id="@+id/radHighrise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lrb_checkedColor="@color/black"
+                app:lrb_unCheckedColor="@color/Gray"
+                android:text="High-rise"
+                android:padding="10dp"
+                android:textColor="@color/Gray"
+                app:lrb_inAnimDuration="500"
+                app:lrb_outAnimDuration="500"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/propertyPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radRoomState"
+            android:text="Room Price"
+            android:textSize="17sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"/>
+
+        <EditText
+            android:id="@+id/etRoomPrice"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/propertyPrice"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:text="RM"
+            android:backgroundTint="@color/Gray"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/radPropertyType"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_search"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

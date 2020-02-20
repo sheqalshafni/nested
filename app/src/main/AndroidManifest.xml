@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.nested">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launchericon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label,android:theme">
+        <activity
+            android:name=".ViewSelectedUnitActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".searchactivities.PostUnitActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".searchactivities.PostRoommateActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewSelectedRoommateActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".payment.MakePaymentActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.accountactivities.ViewCreditCardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewSelectedRoom"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".searchactivities.PostRoomActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.ProfileIDActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.profiledetailsactivities.EditProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.profiledetailsactivities.CredentialsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".searchactivities.FindUnitActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".searchactivities.FindRoommateActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".searchactivities.FindRoomActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.supportactivities.RulesActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.supportactivities.DeleteAccountActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.supportactivities.AboutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.settingsactivities.LanguageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.settingsactivities.PrivacyActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.accountactivities.MyListings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.accountactivities.CardDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.accountactivities.CardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profileactivities.ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mainmenuactivities.PaymentHistoryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mainmenuactivities.RentalActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mainmenuactivities.ListingQuickLink"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LogOnActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Splashscreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

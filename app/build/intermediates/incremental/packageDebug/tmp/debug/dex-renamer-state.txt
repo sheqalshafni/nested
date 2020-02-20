@@ -1,0 +1,10 @@
+#Thu Feb 06 19:12:24 SGT 2020
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=D\:\\Android Projects\\Final Year Project-20200206T091928Z-001\\Final Year Project\\Nested\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.1=D\:\\Android Projects\\Final Year Project-20200206T091928Z-001\\Final Year Project\\Nested\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+base.0=D\:\\Android Projects\\Final Year Project-20200206T091928Z-001\\Final Year Project\\Nested\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out

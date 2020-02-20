@@ -1,0 +1,35 @@
+#Internal package file, do not edit.
+#Thu Feb 06 19:12:24 SGT 2020
+7.path=classes.dex
+2.base=D\:\\Android Projects\\Final Year Project-20200206T091928Z-001\\Final Year Project\\Nested\\app\\build\\intermediates\\merged_assets\\debug\\out
+5.set=ASSET
+0.path=fonts/takeaway_sans_bold.otf
+2.baseType=DIRECTORY
+3.base=D\:\\Android Projects\\Final Year Project-20200206T091928Z-001\\Final Year Project\\Nested\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+7.baseType=DIRECTORY
+2.set=ASSET
+1.path=classes.dex
+4.base=D\:\\Android Projects\\Final Year Project-20200206T091928Z-001\\Final Year Project\\Nested\\app\\build\\intermediates\\merged_assets\\debug\\out
+7.set=DEX
+count=8
+5.baseType=DIRECTORY
+2.path=success.json
+5.base=D\:\\Android Projects\\Final Year Project-20200206T091928Z-001\\Final Year Project\\Nested\\app\\build\\intermediates\\merged_assets\\debug\\out
+4.set=ASSET
+3.path=classes2.dex
+6.base=D\:\\Android Projects\\Final Year Project-20200206T091928Z-001\\Final Year Project\\Nested\\app\\build\\intermediates\\merged_assets\\debug\\out
+3.baseType=DIRECTORY
+1.set=DEX
+4.path=fonts/takeaway_sans_regular.otf
+7.base=D\:\\Android Projects\\Final Year Project-20200206T091928Z-001\\Final Year Project\\Nested\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+6.set=ASSET
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=notfound.json
+0.base=D\:\\Android Projects\\Final Year Project-20200206T091928Z-001\\Final Year Project\\Nested\\app\\build\\intermediates\\merged_assets\\debug\\out
+0.baseType=DIRECTORY
+3.set=DEX
+6.path=ss.json
+1.base=D\:\\Android Projects\\Final Year Project-20200206T091928Z-001\\Final Year Project\\Nested\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+4.baseType=DIRECTORY
+0.set=ASSET

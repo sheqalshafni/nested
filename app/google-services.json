@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "415084150133",
+    "firebase_url": "https://nested-1c965.firebaseio.com",
+    "project_id": "nested-1c965",
+    "storage_bucket": "nested-1c965.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415084150133:android:3a5d6f52330bf06d",
+        "android_client_info": {
+          "package_name": "com.example.nested"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415084150133-fih3j6prrnoncg0qk4aglr2uv18mn906.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nested",
+            "certificate_hash": "76b9cc8003b509e8624ab481b1fcad3fba4aecdf"
+          }
+        },
+        {
+          "client_id": "415084150133-5ibhdon6qacc1trosg4jjphin6lho19d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUt5Kb4pqIkza5t9d27JMQkOP6_ubOXKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415084150133-5ibhdon6qacc1trosg4jjphin6lho19d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileactivities.accountactivities.ViewCreditCardActivity"
+    android:background="@color/mediumGray">
+
+    <View
+        android:id="@+id/placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_below="@id/placeholder"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="59dp"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <View
+        android:id="@+id/card_placeholder"
+        android:layout_width="375dp"
+        android:layout_height="200dp"
+        android:background="@drawable/menubg"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/placeholder"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/cardNumber"
+        android:layout_width="wrap_content"
+        android:text="xxxx xxxx xxxx xxxx"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="45dp"
+        android:layout_below="@id/placeholder"/>
+
+    <TextView
+        android:id="@+id/expiryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MM/YY"
+        android:maxLength="5"
+        android:inputType="phone"
+        android:layout_marginStart="45dp"
+        android:layout_below="@id/placeholder"
+        android:layout_marginTop="190dp"/>
+
+    <ImageView
+        android:id="@+id/cardtype_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_blank_card"
+        android:layout_marginStart="350dp"
+        android:layout_below="@id/placeholder"
+        android:layout_marginTop="190dp"/>
+
+</RelativeLayout>

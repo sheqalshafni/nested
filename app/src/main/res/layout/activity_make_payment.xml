@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".payment.MakePaymentActivity"
+    android:background="@color/mediumGray">
+
+    <View
+        android:id="@+id/placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_below="@id/placeholder"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="59dp"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/placeholder"
+        android:layout_marginTop="40dp">
+
+        <View
+            android:layout_width="370dp"
+            android:layout_height="430dp"
+            android:background="@drawable/menubg"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/invoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="Invoice #"
+            android:textAllCaps="true"
+            android:textColor="@color/medium_grey"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:id="@+id/txtInvoiceNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="30dp"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/tenantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_below="@id/invoice"
+            android:text="Tenant Name"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:id="@+id/txtTenantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@id/txtInvoiceNo"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/roomTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_below="@id/tenantName"
+            android:text="Room Title"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:id="@+id/txtRoomTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@id/txtTenantName"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/roomPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_below="@id/roomTitle"
+            android:text="Room Price"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:id="@+id/txtRoomPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@id/txtRoomTitle"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/subTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_below="@id/roomPrice"
+            android:text="Subtotal"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:id="@+id/txtSubtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@id/txtRoomPrice"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/PaymentDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_below="@id/subTotal"
+            android:text="Recipient Reference"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"/>
+
+        <EditText
+            android:id="@+id/etReference"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/PaymentDetails"
+            android:hint="Enter recipient reference"
+            android:textSize="14sp"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/btnPayRent"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_search"
+            android:layout_centerHorizontal="true"
+            android:text="Pay Now"
+            android:textColor="@color/white"
+            android:layout_marginTop="405dp"
+            android:layout_marginBottom="30dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

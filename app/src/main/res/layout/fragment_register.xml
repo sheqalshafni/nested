@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/separator"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintGuide_percent="0.05"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <TextView
+        android:id="@+id/tv_user_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:labelFor="@id/txtUsername"
+        android:text="@string/label_login_name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/lightBlack"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/separator" />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/transparent"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/lightBlack"
+        android:textCursorDrawable="@null"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_user_label"
+        app:layout_constraintRight_toLeftOf="@+id/profileImage"
+        app:layout_constraintTop_toBottomOf="@+id/tv_user_label" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/profileImage"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/content_description"
+        android:tint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/txtUsername"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtUsername"
+        app:srcCompat="@drawable/account_circle" />
+
+    <View
+        android:id="@+id/view_user_underline"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/lightBlack"
+        app:layout_constraintLeft_toLeftOf="@+id/txtUsername"
+        app:layout_constraintRight_toRightOf="@+id/profileImage"
+        app:layout_constraintTop_toBottomOf="@+id/txtUsername" />
+
+    <TextView
+        android:id="@+id/tv_pass_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:labelFor="@id/txtPassword"
+        android:text="@string/label_login_pass"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/lightBlack"
+        app:layout_constraintLeft_toLeftOf="@+id/view_user_underline"
+        app:layout_constraintTop_toBottomOf="@+id/view_user_underline" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/transparent"
+        android:inputType="textWebPassword"
+        android:textColor="@color/lightBlack"
+        android:textCursorDrawable="@null"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_pass_label"
+        app:layout_constraintRight_toLeftOf="@+id/iv_pass_icon"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pass_label" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_pass_icon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:contentDescription="@string/content_description"
+        android:tint="@color/black"
+        app:layout_constraintRight_toRightOf="@+id/view_user_underline"
+        app:layout_constraintTop_toTopOf="@+id/txtPassword"
+        app:srcCompat="@drawable/ic_padlock" />
+
+    <View
+        android:id="@+id/view_pass_underline"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/lightBlack"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/txtPassword"
+        app:layout_constraintRight_toRightOf="@+id/iv_pass_icon"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorTurquoise"
+        android:text="@string/register"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/txtPassword"
+        app:layout_constraintRight_toRightOf="@+id/iv_pass_icon"
+        app:layout_constraintTop_toBottomOf="@+id/view_pass_underline" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+
+</android.support.constraint.ConstraintLayout>

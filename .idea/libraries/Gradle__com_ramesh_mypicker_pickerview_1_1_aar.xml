@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ramesh.mypicker:pickerview:1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4e7f5ac98862adf7b41d4105218d40a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4e7f5ac98862adf7b41d4105218d40a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ramesh.mypicker/pickerview/1.1/ae9161fff77adf85f20502a360f69824318f5058/pickerview-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

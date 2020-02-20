@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileactivities.settingsactivities.LanguageActivity"
+    android:background="@color/mediumGray">
+
+    <View
+        android:id="@+id/placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/placeholder"
+        android:background="@color/lightGray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="59dp"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/placeholder"
+        android:text="Default"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/placeholder"
+        android:layout_marginTop="39dp"
+        android:background="@color/lightGray"/>
+
+    <View
+        android:id="@+id/default_language_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/placeholder"
+        android:background="@color/white"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:textSize="17sp"
+        android:layout_below="@id/placeholder"
+        android:layout_marginTop="53dp"
+        android:layout_marginStart="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_below="@id/default_language_placeholder"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_below="@id/default_language_placeholder"
+        android:layout_marginTop="29dp"/>
+
+    <View
+        android:id="@+id/malayLanguage_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_below="@id/default_language_placeholder"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bahasa"
+        android:textSize="17sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/default_language_placeholder"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_below="@id/malayLanguage_placeholder"/>
+
+    <View
+        android:id="@+id/chineseLanguage_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:layout_below="@id/malayLanguage_placeholder"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chinese (Simplified)"
+        android:textSize="17sp"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/malayLanguage_placeholder"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_below="@id/chineseLanguage_placeholder"/>
+
+</RelativeLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileactivities.profiledetailsactivities.EditProfileActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:id="@+id/placeholder"/>
+
+    <TextView
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/placeholder"
+        android:text="Save"
+        android:textSize="17sp"
+        android:textColor="@color/hyperlink_blue"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_below="@id/placeholder"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="59dp"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/placeholder"
+        android:layout_marginTop="39dp"
+        android:background="@color/lightGray"/>
+
+    <View
+        android:id="@+id/username_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/placeholder"
+        android:layout_marginTop="40dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="17sp"
+        android:layout_below="@id/placeholder"
+        android:layout_marginTop="53dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/placeholder"
+        android:background="@color/transparent"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_below="@id/username_placeholder"/>
+
+    <View
+        android:id="@+id/age_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_below="@id/username_placeholder"
+        android:layout_marginTop="1dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="Age"
+        android:layout_below="@id/username_placeholder"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/txtAge"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:textSize="17sp"
+        android:inputType="number"
+        android:background="@color/transparent"
+        android:layout_below="@id/username_placeholder"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_below="@id/age_placeholder"/>
+
+    <View
+        android:id="@+id/nric_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:layout_below="@id/age_placeholder"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="NRIC"
+        android:layout_below="@id/age_placeholder"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/txtNRIC"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:textSize="17sp"
+        android:background="@color/transparent"
+        android:layout_below="@id/age_placeholder"
+        android:maxLength="12"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_below="@id/nric_placeholder"/>
+
+    <View
+        android:id="@+id/contact_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:layout_below="@id/nric_placeholder"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="Contact"
+        android:layout_below="@id/nric_placeholder"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/txtContact"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:textSize="17sp"
+        android:background="@color/transparent"
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_below="@id/nric_placeholder"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_below="@id/contact_placeholder"/>
+
+    <View
+        android:id="@+id/gender_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:layout_below="@id/contact_placeholder"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="Gender"
+        android:layout_below="@id/contact_placeholder"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txtGender"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textSize="17sp"
+        android:background="@color/transparent"
+        android:layout_below="@id/contact_placeholder"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"/>
+
+    <com.dpizarro.uipicker.library.picker.PickerUI
+        android:id="@+id/genderPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gender_placeholder" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_below="@id/gender_placeholder"/>
+
+</RelativeLayout>
